@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Veterinaria Amigos Peludos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1551190822-a9333d879b1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80'); /* Imagen de perro en veterinaria */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .precios-promociones {
+            background-color: #f4f4f4;
+        }
+        .precios-promociones h2 {
+            text-align: center;
+        }
+        .servicio {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+        .servicio img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .servicio div {
+            flex: 1;
+            margin-left: 1rem;
+        }
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+        .contacto {
+            background-color: #e8f5e8;
+            text-align: center;
+        }
+        .contacto h2 {
+            margin-bottom: 1rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Clínica Veterinaria Amigos Peludos</h1>
+        <p>Cuidados veterinarios para tus mascotas</p>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#precios">Precios y Promociones</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div>
+            <h1>Bienvenidos a Amigos Peludos</h1>
+            <p>Tu veterinaria de confianza para el cuidado de tus mascotas.</p>
+        </div>
+    </section>
+
+    <section id="precios" class="precios-promociones">
+        <h2>Precios y Promociones</h2>
+        <div class="servicio">
+            <img src="https://images.unsplash.com/photo-1582754151256-3b2b2b2b2b2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Consulta veterinaria">
+            <div>
+                <h3>Consulta General</h3>
+                <p>Precio: $50</p>
+                <p>Promoción: Primera consulta gratis para nuevos clientes.</p>
+            </div>
+        </div>
+        <div class="servicio">
+            <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Vacunación">
+            <div>
+                <h3>Vacunación</h3>
+                <p>Precio: $30 por vacuna</p>
+                <p>Promoción: Paquete de 3 vacunas por $80.</p>
+            </div>
+        </div>
+        <div class="servicio">
+            <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Cirugía">
+            <div>
+                <h3>Cirugía Menor</h3>
+                <p>Precio: $200</p>
+                <p>Promoción: 10% de descuento en cirugías programadas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <p><strong>Dirección:</strong> Calle Ficticia 123, Ciudad Ejemplo, País</p>
+        <p><strong>Teléfono:</strong> +1 234 567 890</p>
+        <p><strong>Email:</strong> info@amigospeludos.com</p>
+        <a href="https://wa.me/1234567890?text=Hola,%20me%20gustaría%20agendar%20una%20cita%20para%20mi%20mascota." class="whatsapp-btn" target="_blank">Contactar por WhatsApp</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Clínica Veterinaria Amigos Peludos. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
